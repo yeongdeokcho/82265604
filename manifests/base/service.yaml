@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: 82265604-service
+  namespace: 82265604
 spec:
   ports:
     - port: 8080
