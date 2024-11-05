@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: ce-aa-pvc
-  namespace: 82265604
+  namespace: "82265604"
 spec:
   accessModes:
     - ReadWriteMany
